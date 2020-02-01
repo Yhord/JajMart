@@ -1,0 +1,12 @@
+{
+  "Name": "JajMart",
+  "Author": "Yhord&DanDewild",
+  "Version": "1.0.0",
+  "Description": "One or two sentences about the mod.",
+  "UniqueID": "Yhord&DanDewild.JajMart",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:1393"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}
