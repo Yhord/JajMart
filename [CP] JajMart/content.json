@@ -3,10 +3,69 @@
    "Changes": [
       {
          "Action": "EditImage",
-         "Target": "Maps/springobjects",
-         "FromFile": "assets/fish-object.png",
-         "FromArea":"",
-         "ToArea":""
+         "Target": "LooseSprite/Cursors.fr-FR",
+         "FromFile": "assets/Cursors1.png",
+         "ToArea": {"X": 291, "Y": 587, "Width": 26, "Height": 14}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprite/Cursors.fr-FR",
+         "FromFile": "assets/Cursors2.png",
+         "ToArea": {"X": 261, "Y": 647, "Width": 28, "Height": 20}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprite/Cursors.fr-FR",
+         "FromFile": "assets/Cursors3.png",
+         "ToArea": {"X": 545, "Y": 1293, "Width": 50, "Height": 18}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprite/Cursors.fr-FR",
+         "FromFile": "assets/Cursors4.png",
+         "ToArea": {"X": 187, "Y": 1696, "Width": 50, "Height": 7}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprite/Cursors",
+         "FromFile": "assets/Cursors1.png",
+         "ToArea": {"X": 291, "Y": 587, "Width": 26, "Height": 14}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprite/Cursors",
+         "FromFile": "assets/Cursors2.png",
+         "ToArea": {"X": 261, "Y": 647, "Width": 28, "Height": 20}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprite/Cursors",
+         "FromFile": "assets/Cursors3.png",
+         "ToArea": {"X": 545, "Y": 1293, "Width": 50, "Height": 18}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprite/Cursors",
+         "FromFile": "assets/Cursors4.png",
+         "ToArea": {"X": 187, "Y": 1696, "Width": 50, "Height": 7}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprite/JojaCDForm.fr-FR",
+         "FromFile": "assets/JojaCDForm.fr-FR.png",
+         "ToArea": {"X": 15, "Y": 6, "Width": 62, "Height": 31}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprite/JojaCDForm",
+         "FromFile": "assets/JojaCDForm.png",
+         "ToArea": {"X": 15, "Y": 6, "Width": 62, "Height": 31}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprite/busPeople",
+         "FromFile": "assets/busPeople.png",
+         "ToArea": {"X": 664, "Y": 476, "Width": 152, "Height": 40}
       },
    ]
 }
