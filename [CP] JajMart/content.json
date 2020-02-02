@@ -63,9 +63,63 @@
       },
       {
          "Action": "EditImage",
-         "Target": "LooseSprite/busPeople",
+         "Target": "Maps/busPeople",
          "FromFile": "assets/busPeople.png",
          "ToArea": {"X": 664, "Y": 476, "Width": 152, "Height": 40}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/MovieTheaterJoja_TileSheet",
+         "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
+         "ToArea": {"X": 21, "Y": 130, "Width": 101, "Height": 60}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+         "FromFile": "assets/MovieTheaterJoja_TileSheet_international.png",
+         "ToArea": {"X": 21, "Y": 130, "Width": 101, "Height": 60}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/MovieTheaterJoja_TileSheet",
+         "FromFile": "assets/MovieTheaterJoja_TileSheet2.png",
+         "ToArea": {"X": 70, "Y": 1, "Width": 24, "Height": 15}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+         "FromFile": "assets/MovieTheaterJoja_TileSheet2.png",
+         "ToArea": {"X": 70, "Y": 1, "Width": 24, "Height": 15}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/walls_and_floors",
+         "FromFile": "assets/walls_and_floors.png",
+         "ToArea": {"X": 80, "Y": 48, "Width": 16, "Height": 45}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/townInterior.fr-FR.png",
+         "ToArea": {"X": 368, "Y": 984, "Width": 32, "Height": 24}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/townInterior.png",
+         "ToArea": {"X": 368, "Y": 984, "Width": 32, "Height": 24}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/Craftables",
+         "FromFile": "assets/Craftables.png",
+         "ToArea": {"X": 80, "Y": 448, "Width": 16, "Height": 32}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/furniture.png",
+         "ToArea": {"X": 144, "Y": 803, "Width": 48, "Height": 23}
       },
    ]
 }
