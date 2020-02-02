@@ -93,6 +93,18 @@
       },
       {
          "Action": "EditImage",
+         "Target": "Maps/spring_town",
+         "FromFile": "assets/spring_town.png",
+         "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156}
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Maps/spring_town.fr-FR",
+         "FromFile": "assets/spring_town.fr-FR.png",
+         "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156}
+      },
+      {
+         "Action": "EditImage",
          "Target": "Maps/walls_and_floors",
          "FromFile": "assets/walls_and_floors.png",
          "ToArea": {"X": 80, "Y": 48, "Width": 16, "Height": 45}
