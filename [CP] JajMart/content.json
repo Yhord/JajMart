@@ -132,7 +132,7 @@
          "Target": "TileSheets/furniture",
          "FromFile": "assets/furniture.png",
          "ToArea": {"X": 144, "Y": 803, "Width": 48, "Height": 23}
-
+      },
       {
          "Action": "EditData",
          "Target": "character/Dialogue/Abigail.fr-FR",
