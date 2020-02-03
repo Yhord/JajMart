@@ -132,19 +132,21 @@
          "Target": "TileSheets/furniture",
          "FromFile": "assets/furniture.png",
          "ToArea": {"X": 144, "Y": 803, "Width": 48, "Height": 23}
-      },
+
       {
          "Action": "EditData",
          "Target": "character/Dialogue/Abigail.fr-FR",
-         "entries": {
-            "Introduction": "Sun_25#Au JajMart",
+         "entries":{
+          "summer_Sun": "As-tu déjà eu envie de partir faire de l’exploration, @ ?#$q 25/26 summer_Sun_old#Ok... imaginons que tu remportes des vacances tous frais payés. Où irais-tu ?#$r 25 0 Sun_25#La plage#$r 26 30 Sun_26#Dans une grotte sombre#$r 26 30 Sun_26#L’ancienne forêt#$r 25 0 Sun_25#Au JajMart",
+          "fall_Tue": "$d joja#J’essaie d’aider au magasin presque tous les jours. Les affaires vont plutôt mal depuis l’ouverture du JajMart.|Depuis que le JajMart a fermé ses portes, nous nous débrouillons très bien au magasin !$h",
          }
       },
-      {
+
+        {
          "Action": "EditData",
          "Target": "character/Dialogue/Abigail",
-         "entries": {
-            "Introduction": "Sun_25#At the JajMart",
+         "entries":{
+              "summer_Sun": "Do you ever get an urge to go exploring, @?#$q 25/26 summer_Sun_old#Okay... pretend you just won a free vacation. Where would you go?#$r 25 0 Sun_25#The beach#$r 26 30 Sun_26#In a dark cave#$r 26 30 Sun_26#The old, gnarled forest#$r 25 0 Sun_25#At the JajMart",
          }
       },
    ]
