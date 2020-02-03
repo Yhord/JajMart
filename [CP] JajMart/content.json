@@ -132,6 +132,23 @@
          "Target": "TileSheets/furniture",
          "FromFile": "assets/furniture.png",
          "ToArea": {"X": 144, "Y": 803, "Width": 48, "Height": 23}
+
+      {
+         "Action": "EditData",
+         "Target": "character/Dialogue/Abigail.fr-FR",
+         "entries":{
+            "Introduction": "Sun_25#Au JajMart",
+
+         }
+      },
+
+        {
+         "Action": "EditData",
+         "Target": "character/Dialogue/Abigail",
+         "entries":{
+            "Introduction": "Sun_25#At the JajMart",
+
+         }
       },
    ]
 }
