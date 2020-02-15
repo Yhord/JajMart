@@ -3,30 +3,6 @@
   "Changes": [
     {
       "Action": "EditImage",
-      "Target": "LooseSprite/Cursors.fr-FR",
-      "FromFile": "assets/Cursors1.png",
-      "ToArea": {"X": 291, "Y": 587, "Width": 26, "Height": 14}
-    },
-    {
-      "Action": "EditImage",
-      "Target": "LooseSprite/Cursors.fr-FR",
-      "FromFile": "assets/Cursors2.png",
-      "ToArea": {"X": 261, "Y": 647, "Width": 28, "Height": 20}
-    },
-    {
-      "Action": "EditImage",
-      "Target": "LooseSprite/Cursors.fr-FR",
-      "FromFile": "assets/Cursors3.png",
-      "ToArea": {"X": 545, "Y": 1293, "Width": 50, "Height": 18}
-    },
-    {
-      "Action": "EditImage",
-      "Target": "LooseSprite/Cursors.fr-FR",
-      "FromFile": "assets/Cursors4.png",
-      "ToArea": {"X": 187, "Y": 1696, "Width": 50, "Height": 7}
-    },
-    {
-      "Action": "EditImage",
       "Target": "LooseSprite/Cursors",
       "FromFile": "assets/Cursors1.png",
       "ToArea": {"X": 291, "Y": 587, "Width": 26, "Height": 14}
@@ -51,9 +27,12 @@
     },
     {
       "Action": "EditImage",
-      "Target": "LooseSprite/JojaCDForm.fr-FR",
+      "Target": "LooseSprite/JojaCDForm",
       "FromFile": "assets/JojaCDForm.fr-FR.png",
-      "ToArea": {"X": 15, "Y": 6, "Width": 62, "Height": 31}
+      "ToArea": {"X": 15, "Y": 6, "Width": 62, "Height": 31},
+      "When": {
+        "Language": "fr"
+      }
     },
     {
       "Action": "EditImage",
@@ -99,9 +78,12 @@
     },
     {
       "Action": "EditImage",
-      "Target": "Maps/spring_town.fr-FR",
+      "Target": "Maps/spring_town",
       "FromFile": "assets/spring_town.fr-FR.png",
-      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156}
+      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
+      "When": {
+        "Language": "fr"
+      }
     },
     {
       "Action": "EditImage",
@@ -111,9 +93,12 @@
     },
     {
       "Action": "EditImage",
-      "Target": "Maps/summer_town.fr-FR",
+      "Target": "Maps/summer_town",
       "FromFile": "assets/spring_town.fr-FR.png",
-      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156}
+      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
+      "When": {
+        "Language": "fr"
+      }
     },
     {
       "Action": "EditImage",
@@ -123,9 +108,12 @@
     },
     {
       "Action": "EditImage",
-      "Target": "Maps/fall_town.fr-FR",
+      "Target": "Maps/fall_town",
       "FromFile": "assets/spring_town.fr-FR.png",
-      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156}
+      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
+      "When": {
+        "Language": "fr"
+      }
     },
     {
       "Action": "EditImage",
@@ -135,9 +123,12 @@
     },
     {
       "Action": "EditImage",
-      "Target": "Maps/winter_town.fr-FR",
+      "Target": "Maps/winter_town",
       "FromFile": "assets/spring_town.fr-FR.png",
-      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156}
+      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
+      "When": {
+        "Language": "fr"
+      }
     },
     {
       "Action": "EditImage",
@@ -148,8 +139,11 @@
     {
       "Action": "EditImage",
       "Target": "Maps/townInterior",
-      "FromFile": "assets/townInterior.fr-FR.png",
-      "ToArea": {"X": 368, "Y": 984, "Width": 32, "Height": 24}
+      "FromFile": "assets/townInterior.png",
+      "ToArea": {"X": 368, "Y": 984, "Width": 32, "Height": 24},
+      "When": {
+        "Language": "fr"
+      }
     },
     {
       "Action": "EditImage",
@@ -171,10 +165,13 @@
     },
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Abigail.fr-FR",
+      "Target": "Characters/Dialogue/Abigail",
       "Entries": {
         "summer_Sun": "As-tu déjà eu envie de partir faire de l’exploration, @ ?#$q 25/26 summer_Sun_old#Ok... imaginons que tu remportes des vacances tous frais payés. Où irais-tu ?#$r 25 0 Sun_25#La plage#$r 26 30 Sun_26#Dans une grotte sombre#$r 26 30 Sun_26#L’ancienne forêt#$r 25 0 Sun_25#Au centre commercial Jaj",
         "fall_Tue": "$d joja#J’essaie d’aider au magasin presque tous les jours. Les affaires vont plutôt mal depuis l’ouverture du JajMart.|Depuis que le JajMart a fermé ses portes, nous nous débrouillons très bien au magasin !$h"
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -187,9 +184,12 @@
     },
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Emily.fr-FR",
+      "Target": "Characters/Dialogue/Emily",
       "Entries": {
         "fall_Fri6": "Tu sens la pureté de l'air ? C'est agréable, n’est-ce pas ?#$b#Je crains seulement que les sociétés de Jaj nous privent de ce plaisir.$u",
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -201,9 +201,12 @@
     },
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Jodi.fr-FR",
+      "Target": "Characters/Dialogue/Jodi",
       "Entries": {
         "Fri": "$d Joja#La nourriture au JajMart n’est peut-être pas la plus saine pour ma famille, mais avec des prix aussi bas, ce serait de la folie de faire des courses ailleurs !|La nourriture chez Pierre est tellement plus fraîche et plus saine que tout ce qu'on trouve au JajMart. Mais les prix ne sont pas les mêmes."
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -215,9 +218,12 @@
     },
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/MarriageDialogue.fr-FR",
+      "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "Outdoor_Shane": "Je ne sais pas si mes poumons peuvent supporter cette fraîcheur. Je suis trop habitué à l'air de Jaj."
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -229,9 +235,12 @@
     },
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/MarriageDialogueSam.fr-FR",
+      "Target": "Characters/Dialogue/MarriageDialogueSam",
       "Entries": {
         "Indoor_Day_0": "Pfiou... s'il y a bien une chose de mon ancienne vie qui ne me manque pas du tout, c'est mon travail au JajMart."
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -243,13 +252,16 @@
     },
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/MarriageDialogueShane.fr-FR",
+      "Target": "Characters/Dialogue/MarriageDialogueShane",
       "Entries": {
         "Indoor_Night_2": "*Gargouillements d’estomac*... je me sens un peu ballonné... oui... J’ai mangé trop de sauce Jaj.",
         "TwoKids_3": "*Soupir*... Si seulement nous pouvions envoyer les enfants dzns un camp de travail de Jaj pendant un certain temps...#$e#Je plaisante.$h",
         "Good_5": "Ah... la vie à la ferme, c'est autre chose que de travailler chez Jaj. Cet endroit me dégoûtait.$h#$e#Tu aurais dû voir l'arrière-boutique...",
         "Neutral_3": "Travailler chez Jaj était une horrible, mais au moins, je pouvais discuter avec des gens de temps en temps.",
         "Neutral_5": "Gagnons-nous assez d’argent ? Je ne veux pas être obligé de retourner travailler chez Jaj."
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -265,9 +277,12 @@
     },
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Penny.fr-FR",
+      "Target": "Characters/Dialogue/Penny",
       "Entries": {
         "Sat2": "$d Joja#Les choses ont beaucoup changé après l’arrivée du JajMart. C’est vraiment très dur pour le magasin de Pierre. Cependant, ma mère aime bien le JajMart. Les prix sont bon bas, alors elle peut se permettre d'acheter beaucoup plus de choses que chez Pierre.|Ma mère se plaint depuis la fermeture du JajMart. Cependant, je pense que c’est une bonne chose. Elle boira peut-être moins de Jaj Cola maintenant."
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -279,11 +294,14 @@
     },
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Pierre.fr-FR",
+      "Target": "Characters/Dialogue/Pierre",
       "Entries": {
         "cc_Complete": "C’est un rêve qui devient réalité ! Tu ne peux pas imaginer le stress que me causait ce JajMart.#$e#Pour une petite ville comme celle-ci, un seul magasin suffit ! Il y a trop de pression sociale pour que j'augmente beaucoup mes prix de toute façon.",
         "joja_Begin": "C’est un triste jour pour Pélican Ville... Plus Jaj devient populaire, plus je risque de mettre la clé sous la porte. Je vais peut-être devoir vendre mon magasin un de ces jours...$s",
         "Fri": "#$1 pierreJoja#Les affaires tournent au ralenti depuis que Jaj s'est installée au village. C'est difficile de rivaliser contre eux.$k$s#$e#Bonjour. Est-ce que ta ferme se porte bien ?#$e#Peut-être que certaines de mes graines pourront t'aider."
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -297,9 +315,12 @@
     },
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Sam.fr-FR",
+      "Target": "Characters/Dialogue/Sam",
       "Entries": {
         "winter_Wed": "$d Joja#Je déteste travailler au JajMart, mais comment faire autrement pour gagner de l'argent dans ce village ?|Je suis content de travailler au musée maintenant. C'est bien plus intéressant que le JajMart qui est tellement déprimant."
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -311,10 +332,13 @@
     },
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Shane.fr-FR",
+      "Target": "Characters/Dialogue/Shane",
       "Entries": {
         "Wed4": "$d Joja#*Soupir*... Chaque jour se ressemble. Stocker ces horribles étagères, aller au saloon, tourner dans son lit toute la nuit.$s|Je détestais mon travail au JajMart, mais maintenant que je suis au chômage, je me sens encore pire.$s",
         "Thu6": "Euh... Où est la Jaj Cola ?"
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -327,11 +351,14 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/Events/AnimalShop.fr-FR",
+      "Target": "Data/Events/AnimalShop",
       "Fields": {
         "3900074/f Shane 2000/e 2118991/p Shane": {
           65: "speak Shane \"C’est la maison idéale pour tes poules...$8#$b#On aura les meilleurs oeufs de toute la vallée !$8#$b#Frais et sains, avec de riches jaunes d'oeufs bien dorés. Pas comme les oeufs pâles et maladifs de chez Jaj...$8\""
         }
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -345,7 +372,7 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/Events/CommunityCenter.fr-FR",
+      "Target": "Data/Events/CommunityCenter",
       "Fields": {
         "Punch": {
           19: "speak Pierre \"Si tu as trop peur de te battre avec moi, amène avec toi un de tes collègues de travail ! Ou est-ce que tous les employés de Jaj sont des lâches comme toi ?$u\"",
@@ -353,6 +380,9 @@
           72: "speak Pierre \"Et la façon dont tu te bats est comme Jaj...$u#$b#La quantité avant la qualité !\"",
           151: "message \"On n'a plus jamais entendu parler de Morris et de ses copains de chez JajMart.\""
         }
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -369,12 +399,15 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/Events/SeedShop.fr-FR",
+      "Target": "Data/Events/SeedShop",
       "Fields": {
         "3102768/j 15/H": {
           29: "speak Morris \"Venez et entrez tout le monde... Nous offrons un rabais de 50 % sur vos achats chez JajMart !\"",
           69: "speak Morris \"Ça doit être si difficile pour toi... De perdre ta fidèle clientèle.#$b#Mais peux-tu vraiment leur en vouloir ? Jaj.Co est clairement le meilleur choix.$h#$b#Bientôt, toute la ville le réalisera.\""
         }
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -389,7 +422,7 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/Events/Town.fr-FR",
+      "Target": "Data/Events/Town",
       "Fields": {
         "831125/f Shane 1750/f Clint 500/f Emily 500/t 1000 1600/w sunny": {
           35: "speak Shane \"Regarde ma nouvelle caméra...#$b#Jaj.Co organise un concours vidéo sur le thème des publicités marketing. Le grand vainqueur recevra 10 000po.\"",
@@ -411,6 +444,9 @@
         "3917586/e 3917585/O Shane/A shaneSaloon2": {
           125: "speak Shane \"Oh, c’est juste du Cola Jaj... Oui, oui, je sais... C’est mauvais pour les dents. Mais ça m’aide à me concentrer.\""
         }
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -440,11 +476,14 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/Events/Trailer_Big.fr-FR",
+      "Target": "Data/Events/Trailer_Big",
       "Fields": {
         "503180/f Pam 2250/A pamHouseUpgrade/A pamHouseUpgradeAnonymous/Hn pamHouseUpgrade": {
           18: "speak Pam \"Ça, c’est ma nouvelle statue \"Emblème de navire\".#$b#... Je l’ai commandée sur Jaj.com avec expédition gratuite en 2 jours. Ne le dis pas à Pierre.\""
         }
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -458,7 +497,7 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/ExtraDialogue.fr-FR",
+      "Target": "Data/ExtraDialogue",
       "Entries": {
         "Morris_PlayerSignedUp": "Excellent ! Bienvenue chez Jaj Corporation ! Reviens demain et nous pourrons voir quel projet de développement communautaire nous te donnerons à faire... Oh, et n’oublie pas ton portefeuille ! Hé hé.#$b#Bien, je vais appeler le maire Lewis et voir ce qui a été fait pour vider cet horrible centre communautaire...",
         "Morris_Greeting": "Bienvenue chez JajMart ! Comment vas-tu aujourd’hui ?#$b#Je ne crois pas avoir fait ta connaissance. Je m’appelle Morris, résponsable de la satisfaction clientèle chez Jaj.#$b#Si tu décides de devenir membre Jaj, je me ferai un plaisir de t'aider à faire ton entrée dans cette nouvelle vie joyeuse",
@@ -474,6 +513,9 @@
         "Morris_WeekendGreeting_CommunityCenterComplete": "Bienvenue au JajMart ! Comment se passe votre week-end ?#$b#Malheureusement, en raison de circonstances regrettables, notre offre d’adhésion à Jaj n’est pas disponible pour le moment. Mais je suis certain que le problème sera bientôt réglé !",
         "Morris_FirstGreeting_CommunityCenterComplete": "Bienvenue au JajMart ! Comment allez-vous aujourd’hui ?#$b#Malheureusement, en raison de circonstances regrettables, notre offre d’adhésion à Jaj n’est pas disponible pour le moment. Mais je suis certain que le problème sera bientôt réglé !",
         "Morris_TheaterBought": "Un demi-mill...!$2#$b#*Euh*... Je veux dire... Excellent ! Notre équipe de construction Jaj commencera les travaux sur le nouveau bâtiment ce soir ! Merci pour votre soutien."
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -498,7 +540,7 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/mail.fr-FR",
+      "Target": "Data/mail",
       "Entries": {
         "Shane": "Salut,^Je pensais que ce serait amusant de t'écrire. Mais je ne sais pas trop quoi écrire.^Je t’ai envoyé un cadeau. Ne le dis à personne, mais j’ai chopé ça dans l’arrière-boutique de JajMart il y a bien longtemps.^À bientôt. ^   -Shane %item object 215 1 206 1 %%[#]Un cadeau de la part de Shane",
         "landslideDone": "À nos chers clients du JajMart :^Les membres de notre équipe ont dégagé le glissement de terrain provoqué par notre opération de forage près du lac de montagne. Je tiens à vous rappeler que notre opération de forage est tout à fait légale (suivant l'amendement JajCo L61091). La gestion responsable de l'environnement est notre priorité ! ^^Nous sommes désolés des désagréments que cela a pu vous occasionner.^Comme toujours, votre soutien continuel et votre bien-être sont importants pour nous !^^-Morris,^responsable de la satisfaction de la clientèle chez Jaj[#]Jaj suppression du glissement de terrain",
@@ -507,6 +549,9 @@
         "passedOut1_NotBilled_Male": "Bonjour Mr. @,^Hier soir, un membre de l’équipe de Jaj vous a trouvé inconscient. Une équipe médicale a été envoyée pour vous ramener à la maison en toute sécurité.^Nous sommes heureux que vous alliez bien !^^Comme vous n’avez pas d’argent, la loi nous oblige à fournir ce service gratuitement.^^-Morris^Responsable de la satisfaction de la clientèle chez Jaj[#]Avis d'obligation légale",
         "passedOut1_NotBilled_Female": "Bonjour Mme. @,^Hier soir, un membre de l’équipe de Jaj vous a trouvé inconsciente. Une équipe médicale a été envoyée pour vous ramener à la maison en toute sécurité.^Nous sommes heureux que vous alliez bien !^^Comme vous n’avez pas d’argent, la loi nous oblige à fournir ce service gratuitement.^^-Morris^Responsable de la satisfaction de la clientèle chez Jaj[#]Avis d'obligation légale",
         "elliottLetter3": "@,^^C’était une sacrée expérience hier soir, à Zuzu Ville ! Il semble y avoir un très grand milieu littéraire ici... quelques dizaines de personnes sont venues à ma lecture !^^J’ai même signé quelques autographes... c’est étrange d’être vu comme quelqu’un d’important. Tout est une question d’illusions... car je ne suis vraiment pas quelqu’un de spécial. Seulement ton dévoué Elliott.^^Actuellement, je suis seul, dans ma chambre d’hôtel, en train de \"manger\" un repas bon marché de Jaj...^^Est-ce qu’on peut appeler ça de la \"nourriture\" ?^Ou juste de la \"matière comestible\" ?^Je n’ai pas besoin de m’étaler sur le sujet.^Ça doit être la seconde option.^^J’ai hâte de rentrer à la maison bientôt. J’espère que tu as aimé les gâteaux au crabe.^^-Avec tout mon amour, Elliott %item conversationTopic ElliottGone4 0 %%[#]Lettre de mon mari 3"
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -524,21 +569,28 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/MoviesReactions.fr-FR",
+      "Target": "Data/MoviesReactions",
       "Entries": {
-        "Text": "C’est juste... *Hic*... du Jaj Cola.$h^*whispers**Chuchote*... Si tu te sens, heu... fatigué... tu peux mettre ta tête sur mon... mon épaule. Ou pas ! $4"
+        "Clint": {
+          "Text": "C’est juste... *Hic*... du Jaj Cola.$h^*whispers**Chuchote*... Si tu te sens, heu... fatigué... tu peux mettre ta tête sur mon... mon épaule. Ou pas ! $4"
+        }
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
       "Entries": {
-        "Text": "It's just... *hic*... Jaj Cola.$h^*whispers*...If you're, um... tired... you can put your head on my... my shoulder. Heh... or not!$4"
+        "Clint": {
+          "Text": "It's just... *hic*... Jaj Cola.$h^*whispers*...If you're, um... tired... you can put your head on my... my shoulder. Heh... or not!$4"
+        }
       }
     },
     {
       "Action": "EditData",
-      "Target": "Data/ObjectInformation.fr-FR",
+      "Target": "Data/ObjectInformation",
       "Fields": {
         "167": {
           4: "Jaj Cola",
@@ -547,6 +599,9 @@
         "171": {
           5: "C’est un CD de démonstration de JajNet 2.0. Ils ont dû en fabriquer des millions."
         }
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -564,11 +619,14 @@
     },
     {
       "Action": "EditData",
-      "Target": "Strings/Locations.fr-FR",
+      "Target": "Strings/Locations",
       "Entries": {
         "Saloon_ColaMachine_Question": "Acheter une Jaj Cola pour 75po ?",
         "JojaMart_SignUp": "Si vous devenez membre de Jaj, le centre communautaire deviendra un entrepôt Jaj et vous ne pourrez plus le rénover. Jaj fournira toutefois un moyen alternatif pour améliorer le village. Êtes-vous sûr de vouloir devenir membre ?",
         "CommunityCenter_AreaName_AbandonedJojaMart": "JajMart abandonné"
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -582,9 +640,12 @@
     },
     {
       "Action": "EditData",
-      "Target": "Strings/schedules/Marnie.fr-FR",
+      "Target": "Strings/schedules/Marnie",
       "Entries": {
         "winter_16.000": "Oohh... De la soie pourpre fine. On ne trouve pas ça chez Jaj !"
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -596,9 +657,12 @@
     },
     {
       "Action": "EditData",
-      "Target": "Strings/schedules/Sam.fr-FR",
+      "Target": "Strings/schedules/Sam",
       "Entries": {
         "rain2.000": "Rien de tel qu’une Jaj Cola glacé par une journée pluvieuse, n’est-ce pas ?#$e#Je plaisante. Hé hé hé.$h"
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -610,11 +674,14 @@
     },
     {
       "Action": "EditData",
-      "Target": "Strings/schedules/Shane.fr-FR",
+      "Target": "Strings/schedules/Shane",
       "Entries": {
         "marriage_Fri.001": "Mmm... Je dois dire que Jaj propose une bien meilleure sélection de plats surgelés.",
         "marriage_Fri.000": "Ne t’inquiète pas, ce n’est que du Jaj Cola.",
         "marriage_Sun.001": "Je ne sais pas quel cola choisir... Peut-être du Jaj Classique ou bien du Jaj Bleu ? Je crois que je vais être ici un moment..."
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -628,17 +695,19 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/Concessions.fr-FR",
+      "Target": "Data/Concessions",
       "Entries": {
         "2": {
           "DisplayName": "Jaj Cola",
           "Description": "Une très grande tasse du produit phare de Jaj."
         },
         "21": {
-          "Name": "JojaCorn",
           "DisplayName": "Pop-corn Jaj",
           "Description": "Encas à base de maïs brevetée de Jaj, recouvert d’une grosse dose de \"sauce au beurre\".\n"
         }
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -646,12 +715,10 @@
       "Target": "Data/Concessions",
       "Entries": {
         "2": {
-          "Name": "Joja Cola",
           "DisplayName": "Jaj Cola",
           "Description": "An extra-large cup of Jaj's flagship soda."
         },
         "21": {
-          "Name": "JojaCorn",
           "DisplayName": "JajCorn",
           "Description": "Jaj's patented corn food, slathered in plenty of \"b'utter sauce\"."
         }
@@ -659,9 +726,12 @@
     },
     {
       "Action": "EditData",
-      "Target": "Strings/SpeechBubbles.fr-FR",
+      "Target": "Strings/SpeechBubbles",
       "Entries": {
         "JojaMart_Morris_Greeting": "Bienvenue chez Jaj !"
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -673,12 +743,15 @@
     },
     {
       "Action": "EditData",
-      "Target": "Strings/StringsFromCSFiles.fr-FR",
+      "Target": "Strings/StringsFromCSFiles",
       "Entries": {
         "Utility.cs.5863": "Atmosphère des bureaux de Jaj ",
         "Bus.cs.7162": "Oui, monsieur. Ce ne sera certainement pas un problème de faire signer les documents par ces péquenauds...$u#$b#Le nouvel hyperJajMart sera installé en un rien de temps. On pourra en discuter plus tard.$u",
         "MapPage.cs.11105": "JajMart",
         "AbandonedJojaMart": "Centre commercial Jaj abandonné"
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -693,7 +766,7 @@
     },
     {
       "Action": "EditData",
-      "Target": "Strings/StringsFromMaps.fr-FR",
+      "Target": "Strings/StringsFromMaps",
       "Entries": {
         "JojaMart.15": "Sauce multi-usage JajCo ",
         "JojaMart.17": "Jaj light - Haricots sans gras ! Dans une sauce sucrée.",
@@ -705,6 +778,9 @@
         "SeedShop.8": "\"Pourquoi JajcCo doit être bannie\"",
         "SeedShop.9": "Pour M. Pierre:^Je n’aime pas être porteur de mauvaises nouvelles, mais je me sens dans l'obligation de vous informer d’un développement récent qui constitue une menace pour votre mode de vie.^JajCo a décidé de s'installer à Pélican Ville.^Il est trop tard pour protester. Les ouvriers Jaj ont déjà dégagé le terrain pour le nouveau JajMart.^^Cela doit être une nouvelle terrible pour vous. Après tant d’années... et désormais, vous allez vous retrouver dans l’ombre d’une entreprise puissante, efficace et économiquement viable. Quel dommage !^^En tant que responsable du nouveau JajMart, je me sens, dans une certaine mesure, personnellement responsable de votre situation. C'est pourquoi j’aimerais vous proposer un poste d’assistant épicier. Le salaire commence à 5po de l'heure. Dans l'attente de recevoir votre CV !^^- Mr. Morris, Gérant^JajMart de Pélican Ville ",
         "MovieTheater_Morris2": "Ah, notre partenaire d’investissement ! Profite bien du spectacle et n’oublie pas d’acheter du pop-corn de Jaj à l’intérieur !$h"
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
@@ -725,9 +801,12 @@
     },
     {
       "Action": "EditData",
-      "Target": "Strings/UI.fr-FR",
+      "Target": "Strings/UI",
       "Entries": {
         "JunimoNote_MustBeAtAJM": "Dois être déposé au JajMart abandonné"
+      },
+      "When": {
+        "Language": "fr"
       }
     },
     {
