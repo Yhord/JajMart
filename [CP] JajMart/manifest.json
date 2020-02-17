@@ -2,7 +2,7 @@
   "Name": "JajMart",
   "Author": "Yhord-Dan_Dewild",
   "Version": "1.0.0",
-  "Description": "One or two sentences about the mod.",
+  "Description": "Replace every occurrence of 'Joja' by 'Jaj'.",
   "UniqueID": "Yhord-Dan_Dewild.JajMart",
   "MinimumApiVersion": "3.0.0",
   "UpdateKeys": ["Nexus:1393"],
