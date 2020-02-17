@@ -1,7 +1,7 @@
 {
   "Name": "JajMart",
   "Author": "Yhord-Dan_Dewild",
-  "Version": "1.0.0",
+  "Version": "2.0.0",
   "Description": "Replace every occurrence of 'Joja' by 'Jaj'.",
   "UniqueID": "Yhord-Dan_Dewild.JajMart",
   "MinimumApiVersion": "3.0.0",
