@@ -1,35 +1,60 @@
 {
   "Format": "1.11.0",
+  "ConfigSchema": {
+    "Strings": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Textures": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    }
+  },
   "Changes": [
     {
       "Action": "EditImage",
       "Target": "LooseSprite/Cursors",
       "FromFile": "assets/Cursors1.png",
-      "ToArea": {"X": 291, "Y": 587, "Width": 26, "Height": 14}
+      "ToArea": {"X": 291, "Y": 587, "Width": 26, "Height": 14},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "LooseSprite/Cursors",
       "FromFile": "assets/Cursors2.png",
-      "ToArea": {"X": 261, "Y": 647, "Width": 28, "Height": 20}
+      "ToArea": {"X": 261, "Y": 647, "Width": 28, "Height": 20},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "LooseSprite/Cursors",
       "FromFile": "assets/Cursors3.png",
-      "ToArea": {"X": 545, "Y": 1293, "Width": 50, "Height": 18}
+      "ToArea": {"X": 545, "Y": 1293, "Width": 50, "Height": 18},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "LooseSprite/Cursors",
       "FromFile": "assets/Cursors4.png",
-      "ToArea": {"X": 187, "Y": 1696, "Width": 50, "Height": 7}
+      "ToArea": {"X": 187, "Y": 1696, "Width": 50, "Height": 7},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "LooseSprite/JojaCDForm",
       "FromFile": "assets/JojaCDForm.png",
-      "ToArea": {"X": 15, "Y": 6, "Width": 62, "Height": 31}
+      "ToArea": {"X": 15, "Y": 6, "Width": 62, "Height": 31},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
@@ -37,6 +62,7 @@
       "FromFile": "assets/JojaCDForm.fr-FR.png",
       "ToArea": {"X": 15, "Y": 6, "Width": 62, "Height": 31},
       "When": {
+        "Textures": "true",
         "Language": "fr"
       }
     },
@@ -44,37 +70,55 @@
       "Action": "EditImage",
       "Target": "Maps/busPeople",
       "FromFile": "assets/busPeople.png",
-      "ToArea": {"X": 664, "Y": 476, "Width": 152, "Height": 40}
+      "ToArea": {"X": 664, "Y": 476, "Width": 152, "Height": 40},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/MovieTheaterJoja_TileSheet",
       "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
-      "ToArea": {"X": 21, "Y": 130, "Width": 101, "Height": 60}
+      "ToArea": {"X": 21, "Y": 130, "Width": 101, "Height": 60},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/MovieTheaterJoja_TileSheet_international",
       "FromFile": "assets/MovieTheaterJoja_TileSheet_international.png",
-      "ToArea": {"X": 21, "Y": 130, "Width": 101, "Height": 60}
+      "ToArea": {"X": 21, "Y": 130, "Width": 101, "Height": 60},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/MovieTheaterJoja_TileSheet",
       "FromFile": "assets/MovieTheaterJoja_TileSheet2.png",
-      "ToArea": {"X": 70, "Y": 1, "Width": 24, "Height": 15}
+      "ToArea": {"X": 70, "Y": 1, "Width": 24, "Height": 15},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/MovieTheaterJoja_TileSheet_international",
       "FromFile": "assets/MovieTheaterJoja_TileSheet2.png",
-      "ToArea": {"X": 70, "Y": 1, "Width": 24, "Height": 15}
+      "ToArea": {"X": 70, "Y": 1, "Width": 24, "Height": 15},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/spring_town",
       "FromFile": "assets/spring_town.png",
-      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156}
+      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
@@ -82,51 +126,64 @@
       "FromFile": "assets/spring_town.fr-FR.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
+        "Textures": "true",
         "Language": "fr"
       }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/summer_town",
-      "FromFile": "assets/spring_town.png",
-      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156}
+      "FromFile": "assets/summer_town.png",
+      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/summer_town",
-      "FromFile": "assets/spring_town.fr-FR.png",
+      "FromFile": "assets/summer_town.fr-FR.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
+        "Textures": "true",
         "Language": "fr"
       }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/fall_town",
-      "FromFile": "assets/spring_town.png",
-      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156}
+      "FromFile": "assets/fall_town.png",
+      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/fall_town",
-      "FromFile": "assets/spring_town.fr-FR.png",
+      "FromFile": "assets/fall_town.fr-FR.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
+        "Textures": "true",
         "Language": "fr"
       }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/winter_town",
-      "FromFile": "assets/spring_town.png",
-      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156}
+      "FromFile": "assets/winter_town.png",
+      "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/winter_town",
-      "FromFile": "assets/spring_town.fr-FR.png",
+      "FromFile": "assets/winter_town.fr-FR.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
+        "Textures": "true",
         "Language": "fr"
       }
     },
@@ -134,25 +191,75 @@
       "Action": "EditImage",
       "Target": "Maps/walls_and_floors",
       "FromFile": "assets/walls_and_floors.png",
-      "ToArea": {"X": 80, "Y": 48, "Width": 16, "Height": 45}
+      "ToArea": {"X": 80, "Y": 48, "Width": 16, "Height": 45},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "Maps/townInterior",
       "FromFile": "assets/townInterior.png",
-      "ToArea": {"X": 368, "Y": 984, "Width": 32, "Height": 24}
+      "ToArea": {"X": 368, "Y": 984, "Width": 32, "Height": 24},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "TileSheets/Craftables",
       "FromFile": "assets/Craftables.png",
-      "ToArea": {"X": 80, "Y": 448, "Width": 16, "Height": 32}
+      "ToArea": {"X": 80, "Y": 448, "Width": 16, "Height": 32},
+      "When": {
+        "Textures": "true"
+      }
     },
     {
       "Action": "EditImage",
       "Target": "TileSheets/furniture",
       "FromFile": "assets/furniture.png",
-      "ToArea": {"X": 144, "Y": 803, "Width": 48, "Height": 23}
+      "ToArea": {"X": 144, "Y": 803, "Width": 48, "Height": 23},
+      "When": {
+        "Textures": "true"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Minigames/jojacorps",
+      "FromFile": "assets/jojacorps1.png",
+      "ToArea": {"X": 0, "Y": 0, "Width": 427, "Height": 333},
+      "When": {
+        "Textures": "true"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Minigames/jojacorps",
+      "FromFile": "assets/jojacorps2.png",
+      "ToArea": {"X": 0, "Y": 600, "Width": 1200, "Height": 200},
+      "When": {
+        "Textures": "true"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Minigames/jojacorps",
+      "FromFile": "assets/jojacorps.fr-FR1.png",
+      "ToArea": {"X": 0, "Y": 0, "Width": 427, "Height": 333},
+      "When": {
+        "Textures": "true",
+        "Language": "fr"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Minigames/jojacorps",
+      "FromFile": "assets/jojacorps.fr-FR2.png",
+      "ToArea": {"X": 0, "Y": 600, "Width": 1200, "Height": 200},
+      "When": {
+        "Textures": "true",
+        "Language": "fr"
+      }
     },
     {
       "Action": "EditData",
@@ -160,6 +267,9 @@
       "Entries": {
         "summer_Sun": "Do you ever get an urge to go exploring, @?#$q 25/26 summer_Sun_old#Okay... pretend you just won a free vacation. Where would you go?#$r 25 0 Sun_25#The beach#$r 26 30 Sun_26#In a dark cave#$r 26 30 Sun_26#The old, gnarled forest#$r 25 0 Sun_25#Jaj Mega-Mall",
         "fall_Tue": "$d joja#I try to help out in the shop on most days. Business has been pretty bad since the Jaj Mart opened, though.|Ever since Jaj Mart shut down we've been doing great at the shop!$h"
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -170,6 +280,7 @@
         "fall_Tue": "$d joja#J’essaie d’aider au magasin presque tous les jours. Les affaires vont plutôt mal depuis l’ouverture du JajMart.|Depuis que le JajMart a fermé ses portes, nous nous débrouillons très bien au magasin !$h"
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -178,6 +289,9 @@
       "Target": "Characters/Dialogue/Emily",
       "Entries": {
         "fall_Fri6": "Smell that clean air? It's lovely, isn't it?#$b#I just fear that the Jaj Co.'s of the world will take this away from us.$u"
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -187,6 +301,7 @@
         "fall_Fri6": "Tu sens la pureté de l'air ? C'est agréable, n’est-ce pas ?#$b#Je crains seulement que les sociétés de Jaj nous privent de ce plaisir.$u",
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -195,6 +310,9 @@
       "Target": "Characters/Dialogue/Jodi",
       "Entries": {
         "Fri": "$d Joja#The food at JajMart might not be the healthiest for my family, but with such low prices you'd be crazy to shop anywhere else!|The food at Pierre's is so much fresher and healthier than anything I ever bought at JajMart. I do miss those cheap Jaj prices, though."
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -204,6 +322,7 @@
         "Fri": "$d Joja#La nourriture au JajMart n’est peut-être pas la plus saine pour ma famille, mais avec des prix aussi bas, ce serait de la folie de faire des courses ailleurs !|La nourriture chez Pierre est tellement plus fraîche et plus saine que tout ce qu'on trouve au JajMart. Mais les prix ne sont pas les mêmes."
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -212,6 +331,9 @@
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "Outdoor_Shane": "I dunno if my lungs can handle this freshness. I'm still used to JajAir."
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -221,6 +343,7 @@
         "Outdoor_Shane": "Je ne sais pas si mes poumons peuvent supporter cette fraîcheur. Je suis trop habitué à l'air de Jaj."
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -229,6 +352,9 @@
       "Target": "Characters/Dialogue/MarriageDialogueSam",
       "Entries": {
         "Indoor_Day_0": "Phew... I'll tell you one thing I don't miss about my old life... working at JajMart."
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -238,6 +364,7 @@
         "Indoor_Day_0": "Pfiou... s'il y a bien une chose de mon ancienne vie qui ne me manque pas du tout, c'est mon travail au JajMart."
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -250,6 +377,9 @@
         "Good_5": "Ah... life on the farm sure beats working at Jaj. That place was disgusting.$h#$e#You think it was depressing out front? Kid, you should've seen the back room...",
         "Neutral_3": "Working at Jaj was a drag, but at least I got to interact with people occasionally.",
         "Neutral_5": "Are we doing okay on money? I don't want to have to go back to work at Jaj."
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -263,6 +393,7 @@
         "Neutral_5": "Gagnons-nous assez d’argent ? Je ne veux pas être obligé de retourner travailler chez Jaj."
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -271,6 +402,9 @@
       "Target": "Characters/Dialogue/Penny",
       "Entries": {
         "Sat2": "$d Joja#Things changed a lot after the JajMart went up. It's been really bad for Pierre's shop. Mom loves JajMart, though. The prices are cheap, so she can afford a lot more there than she ever could at Pierre's.|Mom's been complaining ever since JajMart closed down. I think it's good for her, though. Maybe she'll drink less Jaj Cola now."
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -280,6 +414,7 @@
         "Sat2": "$d Joja#Les choses ont beaucoup changé après l’arrivée du JajMart. C’est vraiment très dur pour le magasin de Pierre. Cependant, ma mère aime bien le JajMart. Les prix sont bon bas, alors elle peut se permettre d'acheter beaucoup plus de choses que chez Pierre.|Ma mère se plaint depuis la fermeture du JajMart. Cependant, je pense que c’est une bonne chose. Elle boira peut-être moins de Jaj Cola maintenant."
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -290,6 +425,9 @@
         "cc_Complete": "This is a dream-come-true! You can't begin to imagine how much stress JajMart was causing me.#$e#For a small town like this, one store is enough! There's too much social pressure for me to overcharge, anyway.",
         "joja_Begin": "This is a sad day for Pelican Town... The stronger Jaj becomes, the closer I move toward bankruptcy. I might have to sell the shop soon...$s",
         "Fri": "#$1 pierreJoja#Business has been slow since Jaj moved into town. It's hard to compete with their selection.$k$s#$e#Hi there. Is your farm doing well?#$e#Maybe a few of my seeds will spruce things up."
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -301,6 +439,7 @@
         "Fri": "#$1 pierreJoja#Les affaires tournent au ralenti depuis que Jaj s'est installée au village. C'est difficile de rivaliser contre eux.$k$s#$e#Bonjour. Est-ce que ta ferme se porte bien ?#$e#Peut-être que certaines de mes graines pourront t'aider."
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -309,6 +448,9 @@
       "Target": "Characters/Dialogue/Sam",
       "Entries": {
         "winter_Wed": "$d Joja#I hate working at JajMart, but how else am I going to make money in this town?|I'm glad I work at the museum now. It's way more interesting than that depressing JajMart ever was."
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -318,6 +460,7 @@
         "winter_Wed": "$d Joja#Je déteste travailler au JajMart, mais comment faire autrement pour gagner de l'argent dans ce village ?|Je suis content de travailler au musée maintenant. C'est bien plus intéressant que le JajMart qui est tellement déprimant."
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -327,6 +470,9 @@
       "Entries": {
         "Wed4": "$d Joja#*sigh* ...Every day is the same. Stocking those horrible shelves, going to the saloon, tossing and turning all night.$s|I hated my job at JajMart, but now that I'm unemployed I feel even worse.$s",
         "Thu6": "Buh... Where's the Jaj Cola?"
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -337,6 +483,7 @@
         "Thu6": "Euh... Où est la Jaj Cola ?"
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -347,6 +494,9 @@
         "3900074/f Shane 2000/e 2118991/p Shane": {
           65: "speak Shane \"It's the perfect home for you hens...$8#$b#We'll have the best eggs in the whole valley!$8#$b#Fresh and healthy, with rich golden yolks. Not like those pale, sickly Jaj eggs...$8\""
         }
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -358,6 +508,7 @@
         }
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -371,6 +522,9 @@
           72: "speak Pierre \"And the way you throw punches is just like Jaj...$u#$b#Quantity over quality!\"",
           151: "message \"Morris and his JajMart cronies were never heard from again.\""
         }
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -385,6 +539,7 @@
         }
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -396,6 +551,9 @@
           29: "speak Morris \"Come and get it folks... coupons for 50% off your purchase at JajMart!\"",
           69: "speak Morris \"It must be so difficult for you... To lose your loyal customers like that.#$b#But can you blame them? Jaj Corporation is clearly the superior choice.$h#$b#Soon the whole town will realize that.\""
         }
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -408,6 +566,7 @@
         }
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -434,6 +593,9 @@
         "3917586/e 3917585/O Shane/A shaneSaloon2": {
           125: "speak Shane \"Oh, that's just Jaj Cola... Yeah, yeah, I know... It's bad for the teeth. But it helps me focus...\""
         }
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -462,6 +624,7 @@
         }
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -472,6 +635,9 @@
         "503180/f Pam 2250/A pamHouseUpgrade/A pamHouseUpgradeAnonymous/Hn pamHouseUpgrade": {
           18: "speak Pam \"This here's my new 'Sign Of The Vessel' statue.#$b#...Ordered it from Jaj.com with free 2-day shipping. Don't tell Pierre.\""
         }
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -483,6 +649,7 @@
         }
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -504,6 +671,9 @@
         "Morris_CommunityDevelopmentForm_PlayerFemale": "$q -1 -1#I've got the Jaj Community Development Form right here for you, miss. Care to take a look?#$r -1 -1 Yes#Yes#$r -1 -1 No#No",
         "Morris_BuyMovieTheater": "Ah, our favorite customer... I have exciting news for you! Jaj headquarters has approved the construction of a new Jaj 'entertainment opportunity' to replace the nearby Jaj Warehouse. We just need an investor willing to support our vision! So, naturally, I turn to you... our most devoted and generous Jaj member.#$b#$q -1 -1#We could make this happen for a small investment of... *cough*... 500,000g...$h#$r -1 -1 Yes#Yes#$r -1 -1 No#No",
         "Morris_TheaterBought": "Half a mil...!$2#$b#*Ahem*... I mean... Excellent! Our Jaj Construction Team will begin work on the new building tonight! Thank you for supporting our work."
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -526,6 +696,7 @@
         "Morris_TheaterBought": "Un demi-mill...!$2#$b#*Euh*... Je veux dire... Excellent ! Notre équipe de construction Jaj commencera les travaux sur le nouveau bâtiment ce soir ! Merci pour votre soutien."
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -540,6 +711,9 @@
         "passedOut1_NotBilled_Male": "Dear Mr. @,^Last night, a Jaj team member found you incapacitated. A medical team was dispatched to bring you home safely.^We're glad you're okay!^^Since you have no money, we were obligated by law to provide this service free of charge.^^-Morris^Jaj Customer Satisfaction Representative[#]Legally Required Notice",
         "passedOut1_NotBilled_Female": "Dear Ms. @,^Last night, a Jaj team member found you incapacitated. A medical team was dispatched to bring you home safely.^We're glad you're okay!^^Since you have no money, we were obligated by law to provide this service free of charge.^^-Morris^Jaj Customer Satisfaction Representative[#]Legally Required Notice",
         "elliottLetter3": "My sweet @,^^Last night in Zuzu City was quite the experience! It seems there's a large literary scene here... a few dozen people showed up at my reading!^^I even signed a couple of autographs... it's strange to be seen as someone important. It's all a matter of framing, a grand illusion... for truly I am no one special. Only your devoted Elliott, as always.^^Currently I'm alone, in my hotel room, 'ingesting' a Jaj Value Meal...^^Should this be called 'food'?^Or 'edible matter'?^I needn't long brood^It must be the latter^^I look forward to returning home soon. Hope you enjoyed the crab cakes.^^-Love, Elliott %item conversationTopic ElliottGone4 0 %%[#]Letter From My Husband 3"
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -555,6 +729,7 @@
         "elliottLetter3": "@,^^C’était une sacrée expérience hier soir, à Zuzu Ville ! Il semble y avoir un très grand milieu littéraire ici... quelques dizaines de personnes sont venues à ma lecture !^^J’ai même signé quelques autographes... c’est étrange d’être vu comme quelqu’un d’important. Tout est une question d’illusions... car je ne suis vraiment pas quelqu’un de spécial. Seulement ton dévoué Elliott.^^Actuellement, je suis seul, dans ma chambre d’hôtel, en train de \"manger\" un repas bon marché de Jaj...^^Est-ce qu’on peut appeler ça de la \"nourriture\" ?^Ou juste de la \"matière comestible\" ?^Je n’ai pas besoin de m’étaler sur le sujet.^Ça doit être la seconde option.^^J’ai hâte de rentrer à la maison bientôt. J’espère que tu as aimé les gâteaux au crabe.^^-Avec tout mon amour, Elliott %item conversationTopic ElliottGone4 0 %%[#]Lettre de mon mari 3"
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -565,6 +740,9 @@
         "Clint": {
           "Text": "It's just... *hic*... Jaj Cola.$h^*whispers*...If you're, um... tired... you can put your head on my... my shoulder. Heh... or not!$4"
         }
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -576,6 +754,7 @@
         }
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -590,6 +769,9 @@
         "171": {
           5: "It's a JajNet 2.0 trial CD. They must've made a billion of these things."
         }
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -605,6 +787,7 @@
         }
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -615,6 +798,9 @@
         "CommunityCenter_AreaName_AbandonedJojaMart": "Abandoned JajMart",
         "Saloon_ColaMachine_Question": "Buy a Jaj Cola for 75g?",
         "JojaMart_SignUp": "If you become a Jaj Member, the community center will become a Jaj Warehouse, and you will no longer be able to refurbish it. However, Jaj will provide an alternative means to improving the town. Are you sure you want to join?",
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -626,6 +812,7 @@
         "CommunityCenter_AreaName_AbandonedJojaMart": "JajMart abandonné"
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -634,6 +821,9 @@
       "Target": "Strings/schedules/Marnie",
       "Entries": {
         "winter_16.000": "Oohh... Fine purple silk. You can't find that at JajMart!"
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -643,6 +833,7 @@
         "winter_16.000": "Oohh... De la soie pourpre fine. On ne trouve pas ça chez Jaj !"
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -651,6 +842,9 @@
       "Target": "Strings/schedules/Sam",
       "Entries": {
         "rain2.000": "Nothing like an ice cold Jaj Cola on a sopping wet day, huh?#$e#Just kidding. Hehehe.$h"
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -660,6 +854,7 @@
         "rain2.000": "Rien de tel qu’une Jaj Cola glacé par une journée pluvieuse, n’est-ce pas ?#$e#Je plaisante. Hé hé hé.$h"
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -670,6 +865,9 @@
         "marriage_Fri.001": "Hmm... I have to say, JajMart has a much better selection of frozen dinners.",
         "marriage_Fri.000": "Don't worry, this is only Jaj Cola.",
         "marriage_Sun.001": "I've got cola block... do I pick Jaj Classic or Jaj Bluu? I might be here a while..."
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -681,6 +879,7 @@
         "marriage_Sun.001": "Je ne sais pas quel cola choisir... Peut-être du Jaj Classique ou bien du Jaj Bleu ? Je crois que je vais être ici un moment..."
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -696,6 +895,9 @@
           "DisplayName": "JajCorn",
           "Description": "Jaj's patented corn food, slathered in plenty of \"b'utter sauce\"."
         }
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -712,6 +914,7 @@
         }
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -720,6 +923,9 @@
       "Target": "Strings/SpeechBubbles",
       "Entries": {
         "JojaMart_Morris_Greeting": "Welcome to JajMart!"
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -729,6 +935,7 @@
         "JojaMart_Morris_Greeting": "Bienvenue chez Jaj !"
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -740,6 +947,9 @@
         "Bus.cs.7162": "*snort* ... Yes, sir. It definitely won't be a problem to get these country rubes to sign the paperwork...$u#$b#We'll have that new Jaj Hypermarket up and running in no time. Then maybe we can discuss that new-$u",
         "MapPage.cs.11105": "JajMart",
         "AbandonedJojaMart": "Abandoned JajMart"
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -752,6 +962,7 @@
         "AbandonedJojaMart": "Centre commercial Jaj abandonné"
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -769,6 +980,9 @@
         "SeedShop.8": "'Why JajCo Must Be Stopped'",
         "SeedShop.9": "To Mr. Pierre:^It pains me to be the bearer of bad news, but I feel obligated to inform you of a recent development most threatening to your livelihood.^Jaj Co. has decided to expand into Pelican Town.^It's too late for protest. Jaj Builders have already broken ground for the new JajMart.^^This must be devastating news for you. So many years in business...a local standby... and now, obscured by the shadow of a powerful, efficient, economically viable corporation. What a shame!^^As manager of the new JajMart, I feel, to some degree, personally responsible for your predicament. As such, I'd like to offer you a position as Assistant Grocer. Wages start at 5g an hour. I look forward to seeing your resume!^^-Mr. Morris, Manager^Pelican Town JajMart",
         "MovieTheater_Morris2": "Ah, it's our very important investment partner! Enjoy the show, and don't forget to buy a bag of JajCorn on your way in!$h"
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -787,6 +1001,7 @@
         "MovieTheater_Morris2": "Ah, notre partenaire d’investissement ! Profite bien du spectacle et n’oublie pas d’acheter du pop-corn de Jaj à l’intérieur !$h"
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     },
@@ -795,6 +1010,9 @@
       "Target": "Strings/UI",
       "Entries": {
         "JunimoNote_MustBeAtAJM": "Must be deposited at Abandoned JajMart"
+      },
+      "When": {
+        "Strings": "true"
       }
     },
     {
@@ -804,6 +1022,7 @@
         "JunimoNote_MustBeAtAJM": "Dois être déposé au JajMart abandonné"
       },
       "When": {
+        "Strings": "true",
         "Language": "fr"
       }
     }
