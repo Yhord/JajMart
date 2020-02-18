@@ -24,7 +24,7 @@
       "Action": "EditImage",
       "Target": "LooseSprites/Cursors",
       "FromFile": "assets/Cursors2.png",
-      "ToArea": {"X": 261, "Y": 647, "Width": 28, "Height": 20},
+      "ToArea": {"X": 261, "Y": 647, "Width": 26, "Height": 20},
       "When": {
         "Textures": "true"
       }
