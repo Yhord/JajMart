@@ -227,7 +227,7 @@
       "Action": "EditImage",
       "Target": "Minigames/jojacorps",
       "FromFile": "assets/jojacorps1.png",
-      "ToArea": {"X": 0, "Y": 0, "Width": 427, "Height": 333},
+      "ToArea": {"X": 0, "Y": 0, "Width": 427, "Height": 240},
       "When": {
         "Textures": "true"
       }
@@ -245,7 +245,7 @@
       "Action": "EditImage",
       "Target": "Minigames/jojacorps",
       "FromFile": "assets/jojacorps.fr-FR1.png",
-      "ToArea": {"X": 0, "Y": 0, "Width": 427, "Height": 333},
+      "ToArea": {"X": 0, "Y": 0, "Width": 427, "Height": 240},
       "When": {
         "Textures": "true",
         "Language": "fr"
