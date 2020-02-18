@@ -5,7 +5,7 @@
       "AllowValues": "true, false",
       "Default": "true"
     },
-    "Textures": {
+    "Sprites": {
       "AllowValues": "true, false",
       "Default": "true"
     }
@@ -17,7 +17,7 @@
       "FromFile": "assets/Cursors1.png",
       "ToArea": {"X": 291, "Y": 587, "Width": 26, "Height": 14},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -26,7 +26,7 @@
       "FromFile": "assets/Cursors2.png",
       "ToArea": {"X": 261, "Y": 647, "Width": 26, "Height": 20},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -35,7 +35,7 @@
       "FromFile": "assets/Cursors3.png",
       "ToArea": {"X": 545, "Y": 1293, "Width": 50, "Height": 18},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -44,7 +44,7 @@
       "FromFile": "assets/Cursors4.png",
       "ToArea": {"X": 187, "Y": 1696, "Width": 50, "Height": 7},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -53,7 +53,7 @@
       "FromFile": "assets/JojaCDForm.png",
       "ToArea": {"X": 15, "Y": 6, "Width": 62, "Height": 31},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -62,7 +62,7 @@
       "FromFile": "assets/JojaCDForm.fr-FR.png",
       "ToArea": {"X": 15, "Y": 6, "Width": 62, "Height": 31},
       "When": {
-        "Textures": "true",
+        "Sprites": "true",
         "Language": "fr"
       }
     },
@@ -72,7 +72,7 @@
       "FromFile": "assets/busPeople.png",
       "ToArea": {"X": 664, "Y": 476, "Width": 152, "Height": 40},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -81,7 +81,7 @@
       "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
       "ToArea": {"X": 21, "Y": 130, "Width": 101, "Height": 60},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -90,7 +90,7 @@
       "FromFile": "assets/MovieTheaterJoja_TileSheet_international.png",
       "ToArea": {"X": 21, "Y": 130, "Width": 101, "Height": 60},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -99,7 +99,7 @@
       "FromFile": "assets/MovieTheaterJoja_TileSheet2.png",
       "ToArea": {"X": 70, "Y": 1, "Width": 24, "Height": 15},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -108,7 +108,7 @@
       "FromFile": "assets/MovieTheaterJoja_TileSheet2.png",
       "ToArea": {"X": 70, "Y": 1, "Width": 24, "Height": 15},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -117,7 +117,7 @@
       "FromFile": "assets/spring_town.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -126,7 +126,7 @@
       "FromFile": "assets/spring_town.fr-FR.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
-        "Textures": "true",
+        "Sprites": "true",
         "Language": "fr"
       }
     },
@@ -136,7 +136,7 @@
       "FromFile": "assets/summer_town.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -145,7 +145,7 @@
       "FromFile": "assets/summer_town.fr-FR.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
-        "Textures": "true",
+        "Sprites": "true",
         "Language": "fr"
       }
     },
@@ -155,7 +155,7 @@
       "FromFile": "assets/fall_town.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -164,7 +164,7 @@
       "FromFile": "assets/fall_town.fr-FR.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
-        "Textures": "true",
+        "Sprites": "true",
         "Language": "fr"
       }
     },
@@ -174,7 +174,7 @@
       "FromFile": "assets/winter_town.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -183,7 +183,7 @@
       "FromFile": "assets/winter_town.fr-FR.png",
       "ToArea": {"X": 0, "Y": 836, "Width": 512, "Height": 156},
       "When": {
-        "Textures": "true",
+        "Sprites": "true",
         "Language": "fr"
       }
     },
@@ -193,7 +193,7 @@
       "FromFile": "assets/walls_and_floors.png",
       "ToArea": {"X": 80, "Y": 48, "Width": 16, "Height": 45},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -202,7 +202,7 @@
       "FromFile": "assets/townInterior.png",
       "ToArea": {"X": 368, "Y": 984, "Width": 32, "Height": 24},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -211,7 +211,7 @@
       "FromFile": "assets/Craftables.png",
       "ToArea": {"X": 80, "Y": 448, "Width": 16, "Height": 32},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -220,7 +220,7 @@
       "FromFile": "assets/furniture.png",
       "ToArea": {"X": 144, "Y": 803, "Width": 48, "Height": 23},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -229,7 +229,7 @@
       "FromFile": "assets/jojacorps1.png",
       "ToArea": {"X": 0, "Y": 0, "Width": 427, "Height": 240},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -238,7 +238,7 @@
       "FromFile": "assets/jojacorps2.png",
       "ToArea": {"X": 0, "Y": 600, "Width": 1200, "Height": 200},
       "When": {
-        "Textures": "true"
+        "Sprites": "true"
       }
     },
     {
@@ -247,7 +247,7 @@
       "FromFile": "assets/jojacorps.fr-FR1.png",
       "ToArea": {"X": 0, "Y": 0, "Width": 427, "Height": 240},
       "When": {
-        "Textures": "true",
+        "Sprites": "true",
         "Language": "fr"
       }
     },
@@ -257,7 +257,7 @@
       "FromFile": "assets/jojacorps.fr-FR2.png",
       "ToArea": {"X": 0, "Y": 600, "Width": 1200, "Height": 200},
       "When": {
-        "Textures": "true",
+        "Sprites": "true",
         "Language": "fr"
       }
     },
