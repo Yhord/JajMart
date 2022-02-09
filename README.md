@@ -6,7 +6,9 @@ A Stardew Valley Content Patcher mod that replace every occurences of "Joja" by 
 2. Install [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915).
 3. Download this mod and unzip it into Stardew Valley/Mods.
 4. Run the game using SMAPI.
-5. Enjoy
+5. Enjoy!
 
 ## See also
-- [Stardew Valley website](https://www.stardewvalley.net)
+- Stardew Valley [official website](https://www.stardewvalley.net)
+- SMAPI [GitHub repository](https://github.com/Pathoschild/SMAPI)
+- Content Patcher [GitHub repository](https://github.com/Pathoschild/StardewMods/tree/stable/ContentPatcher)
