@@ -9,6 +9,6 @@ A Stardew Valley Content Patcher mod that replace every occurences of "Joja" by 
 5. Enjoy!
 
 ## See also
-- Stardew Valley [official website](https://www.stardewvalley.net)
-- SMAPI [GitHub repository](https://github.com/Pathoschild/SMAPI)
-- Content Patcher [GitHub repository](https://github.com/Pathoschild/StardewMods/tree/stable/ContentPatcher)
+- Stardew Valley - [Official website](https://www.stardewvalley.net)
+- SMAPI - [GitHub repository](https://github.com/Pathoschild/SMAPI)
+- Content Patcher - [GitHub repository](https://github.com/Pathoschild/StardewMods/tree/stable/ContentPatcher)
